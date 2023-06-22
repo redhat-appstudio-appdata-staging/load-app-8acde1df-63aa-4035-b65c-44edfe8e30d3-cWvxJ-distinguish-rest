@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-rdrw
     app.kubernetes.io/part-of: load-app-8acde1df-63aa-4035-b65c-44edfe8e30d3
-  name: devfile-sample-rdrw
+  name: devfile-sample-rdrwsad1
 spec:
   path: /
   port:

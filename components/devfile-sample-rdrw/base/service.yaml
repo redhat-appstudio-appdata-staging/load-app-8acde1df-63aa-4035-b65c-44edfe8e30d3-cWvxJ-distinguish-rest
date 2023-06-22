@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: devfile-sample-rdrw
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: devfile-sample-rdrw
+    app.kubernetes.io/part-of: load-app-8acde1df-63aa-4035-b65c-44edfe8e30d3
+  name: devfile-sample-rdrw
+spec:
+  ports:
+  - port: 3001
+    targetPort: 3001
+  selector:
+    app.kubernetes.io/instance: devfile-sample-rdrw
+status:
+  loadBalancer: {}
